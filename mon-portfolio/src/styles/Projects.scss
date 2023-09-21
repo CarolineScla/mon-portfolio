@@ -1,0 +1,52 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Centre les éléments verticalement */
+    min-height: 100vh; /* Pour occuper au moins la hauteur de la fenêtre */
+  
+    .card {
+        width: 18rem;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        margin: 1rem;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+      }
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+  
+        .card-title {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+  
+        .card-text {
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+  
+        .btn {
+          background-color: #007bff;
+          color: #fff;
+          text-decoration: none;
+          padding: 0.5rem 1rem;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+  

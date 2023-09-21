@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
@@ -7,15 +7,15 @@ import Contact from './components/Contact.jsx';
 
 function App() {
   return (
-    <React.StrictMode>
-        <Router>
-          <Routes path="/" exact component={Home} />
-          <Routes path="/about" component={About} />
-          <Routes path="/projects" component={Projects} />
-          <Routes path="/contact" component={Contact} />
-        </Router>
-    </React.StrictMode>  
-    );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

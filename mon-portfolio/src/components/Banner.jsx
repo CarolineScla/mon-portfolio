@@ -6,7 +6,7 @@ function Banner() {
   return (
     <nav className='banner'>
       <div className= 'Banner_logo'>
-        <img src='/emoji.jpeg' alt='logo'/>
+        <img src='/logoNom.png' alt='logo'/>
       </div>
       <div className= 'Banner_menu'>
       <NavLink to="/about">À Propos</NavLink>
