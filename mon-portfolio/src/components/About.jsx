@@ -6,7 +6,7 @@ function About() {
       <div className="about-section">
         <h3>Mon Parcours</h3>
         <p>
-          Bonjour ! Je suis Caroline Sclavon, une développeuse web passionnée basée à [votre ville ou région]. Après une reconversion professionnelle enthousiasmante, j'ai acquis des compétences solides en développement web, et je suis toujours avide d'apprendre et de relever de nouveaux défis.
+          Bonjour ! Je suis Caroline Sclavon, une développeuse web passionnée basée à Nice. Après une reconversion professionnelle enthousiasmante, j'ai acquis des compétences solides en développement web, et je suis toujours avide d'apprendre et de relever de nouveaux défis.
         </p>
       </div>
 

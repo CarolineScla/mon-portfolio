@@ -5,35 +5,31 @@ import "../styles/Projects.scss"
 
 const projectsData = [
   {
-    title: 'Projet 1',
-    description: 'Création du HTML et CSS du site de réservation Booki',
-    githubLink: 'https://github.com/votre-utilisateur/projet-1',
+    title: 'Création du site de réservation Booki',
+    description: 'HTML et CSS',
+    githubLink: 'https://github.com/CarolineScla/CarolineScla-P2-Creation-site-Booki',
   },
   {
-    title: 'Projet 2',
-    description: 'Créer une application de location immobilière avec React',
-    githubLink: 'https://github.com/CarolineScla/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1/blob/master/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1-main/src/App.test.js',
+    title: 'Créez une page web dynamique',
+    description: 'JavaScript',
+    githubLink: 'https://github.com/CarolineScla/Portfolio-architecte-sophie-bluel',
   },
   {
-    title: 'Projet 3',
-    description: 'Créer une application de location immobilière avec React',
-    githubLink: 'https://github.com/CarolineScla/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1/blob/master/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1-main/src/App.test.js',
+    title: 'Débuggez et optimisez un site de photographe',
+    description: 'SEO et optimisation',
+    githubLink: 'https://github.com/CarolineScla/De-buggez-et-optimisez-un-site-de-photographe',
   },
   {
-    title: 'Projet 4',
-    description: 'Créer une application de location immobilière avec React',
-    githubLink: 'https://github.com/CarolineScla/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1/blob/master/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1-main/src/App.test.js',
+    title: 'Créer une application de location immobilière',
+    description: 'React',
+    githubLink: 'https://github.com/CarolineScla/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1',
   },
   {
-    title: 'Projet 5',
-    description: 'Créer une application de location immobilière avec React',
-    githubLink: 'https://github.com/CarolineScla/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1/blob/master/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1-main/src/App.test.js',
+    title: 'Développez le back-end d un site de notation de livres',
+    description: 'Node.js',
+    githubLink: 'https://github.com/CarolineScla/Mon_Vieux_Grimoire',
   },
-  {
-    title: 'Projet 6',
-    description: 'Créer une application de location immobilière avec React',
-    githubLink: 'https://github.com/CarolineScla/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1/blob/master/Creeez-une-application-web-de-location-immobilie-re-avec-React_Caroline_Sclavon1-main/src/App.test.js',
-  },];
+  ];
 
 function Projects() {
   return (
